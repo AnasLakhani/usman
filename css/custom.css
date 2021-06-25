@@ -1,0 +1,242 @@
+/* Add here all your CSS customizations */
+
+/* Enable keyboard submenu focus in main nav (ADA) */
+li:focus-within > .dropdown-menu {
+    top: auto !important;
+    display: block !important;
+    opacity: 1 !important;
+}
+
+/* Enable skip to main content (ADA) */
+
+a.skip-main {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+    a.skip-main:focus, a.skip-main:active {
+        background: white;
+        color: blue;
+        left: 0;
+        top: 0;
+        width: auto;
+        height: auto;
+        overflow: auto;
+        margin: 10px;
+        padding: 5px;
+        font-size: 1.4em;
+        z-index: 999;
+    }
+
+/* Validation error */
+.field-validation-error {
+    color: #a94442;
+}
+
+.input-validation-error {
+    border: 1px solid #a94442;
+}
+
+/* Kendo Datepicker validation */
+span.k-picker-wrap.k-state-default.has-error {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);    
+}
+
+.k-calendar .k-state-selected .k-link {
+    color: white;
+}
+
+.k-calendar .k-link:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.k-state-disabled .k-link {
+    color: #a1a1a1;
+    font-weight: normal;
+}
+
+.k-state-disabled .k-link:hover {
+    color: #a1a1a1;
+    font-weight: normal;
+}
+
+.k-calendar .k-link.k-nav-fast.k-state-disabled {
+    opacity: 1;
+}
+
+.k-calendar .k-link.k-nav-fast {
+    color: white;
+    background-color: #f7931d;
+}
+
+.k-calendar .k-header {
+    color: white;
+    background-color: #f7931d;
+}
+
+.k-calendar .k-state-hover {
+    color: white;
+    background-color: #e5891b;
+}
+
+.k-calendar .k-nav-fast.k-state-hover {
+    color: white;
+    background-color: #e5891b;
+}
+
+.k-calendar .k-state-selected {
+    background-color: #f7931d;
+    border-color: #f7931d;
+}
+
+.k-calendar .k-state-selected.k-state-hover {
+    background-color: #e5891b;
+    border-color: #e5891b;
+}
+
+.k-calendar .k-state-selected .k-state-focused {
+    background-color: #f7931d;
+    border-color: #f7931d;
+}
+
+.k-calendar .k-state-selected .k-state-focused .k-state-hover {
+    background-color: #e5891b;
+    border-color: #e5891b;
+}
+
+td.k-state-focused {
+    -webkit-box-shadow:inset 0 0 10px 3px #f7931d;
+    box-shadow: inset 0 0 10px 3px #f7931d;
+}
+
+td.k-state-focused.k-state-selected {
+    -webkit-box-shadow:inset 0 0 10px 3px #f7931d;
+    box-shadow: inset 0 0 10px 3px #f7931d;
+}
+.s-scheduled {
+    color: #f7931d;
+}
+
+.s-checkboxlabel {
+    padding-left: 4px;
+}
+
+.s-tighten-padding {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: #e5891b #eee #ddd;
+}
+
+.nav-tabs li a {
+    color: #bababa;
+}
+
+.nav-tabs li a:hover {
+    background: #F4F4F4;
+    border-bottom: none;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-top: 3px solid #939597;
+    color: #939597;
+}
+
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a:focus {
+    background-color: #fff;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-top: 3px solid #f7931d;
+    border-bottom-color: transparent;
+    color: #f7931d;
+    cursor: default;
+}
+
+.nav-tabs > li.active > a:focus {
+    background-color: #fff;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-top: 3px solid #f7931d;
+    border-bottom-color: transparent;
+    color: #f7931d;
+    cursor: default;
+}
+.nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+
+.nav-tabs.nav-justified > li {
+    float: none;
+}
+
+.nav-tabs.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+
+.nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px;
+}
+
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+    border: 1px solid #f7931d;
+}
+
+.pad-left-30 {
+    padding-left: 30px;
+}
+
+.pad-right-30 { 
+    padding-right: 30px; 
+}
+
+.no-min-height {
+    min-height: 0;
+}
+
+.hidden-validate-required {
+    /* 
+        Use this empty class to designate an input that
+        requires client side validation even when hidden.
+        Use with HiddenRequiredValidationAttribute on
+        Model property.
+    */
+}

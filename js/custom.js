@@ -1,0 +1,1 @@
+$('.dropdown-submenu > a').submenupicker();

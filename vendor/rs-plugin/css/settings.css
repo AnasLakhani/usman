@@ -610,8 +610,8 @@ img.tp-slider-alternative-image	{
 .tp-button.red, .tp-button:hover.red,
 .purchase.red, .purchase:hover.red				{ background-color:#cb1d1d; -webkit-box-shadow:	0px 3px 0px 0px #7c1212;				-moz-box-shadow:	 0px 3px 0px 0px #7c1212;				box-shadow:	 0px 3px 0px 0px #7c1212}
 
-.tp-button.orange, .tp-button:hover.orange,
-.purchase.orange, .purchase:hover.orange		{ background-color:#ff7700; -webkit-box-shadow:	0px 3px 0px 0px #a34c00;				-moz-box-shadow:	 0px 3px 0px 0px #a34c00;				box-shadow:	 0px 3px 0px 0px #a34c00}
+.tp-button.red, .tp-button:hover.red,
+.purchase.red, .purchase:hover.red		{ background-color:#ff7700; -webkit-box-shadow:	0px 3px 0px 0px #a34c00;				-moz-box-shadow:	 0px 3px 0px 0px #a34c00;				box-shadow:	 0px 3px 0px 0px #a34c00}
 
 .tp-button.darkgrey,.tp-button.grey,
 .tp-button:hover.darkgrey,.tp-button:hover.grey,

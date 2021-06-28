@@ -22,7 +22,7 @@ a:focus img, a:focus svg {
 	outline: 1px dotted #ccc;
 }
 a:focus {
-	outline: 4px solid orange;
+	outline: 4px solid red;
 }
 
 li {

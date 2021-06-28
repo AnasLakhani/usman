@@ -492,7 +492,7 @@ website:	 	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.medium_bold_orange,.medium_bold_orange
+.tp-caption.medium_bold_red,.medium_bold_red
 {
 	background-color:transparent;
 	border-color:#ffd658;
@@ -506,7 +506,7 @@ website:	 	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.medium_bg_orange,.medium_bg_orange
+.tp-caption.medium_bg_red,.medium_bg_red
 {
 	background-color:#f39c12;
 	border-color:#ffd658;

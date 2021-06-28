@@ -74,12 +74,12 @@ span.k-picker-wrap.k-state-default.has-error {
 
 .k-calendar .k-link.k-nav-fast {
     color: white;
-    background-color: #f7931d;
+    background-color: #FF0000;
 }
 
 .k-calendar .k-header {
     color: white;
-    background-color: #f7931d;
+    background-color: #FF0000;
 }
 
 .k-calendar .k-state-hover {
@@ -93,8 +93,8 @@ span.k-picker-wrap.k-state-default.has-error {
 }
 
 .k-calendar .k-state-selected {
-    background-color: #f7931d;
-    border-color: #f7931d;
+    background-color: #FF0000;
+    border-color: #FF0000;
 }
 
 .k-calendar .k-state-selected.k-state-hover {
@@ -103,8 +103,8 @@ span.k-picker-wrap.k-state-default.has-error {
 }
 
 .k-calendar .k-state-selected .k-state-focused {
-    background-color: #f7931d;
-    border-color: #f7931d;
+    background-color: #FF0000;
+    border-color: #FF0000;
 }
 
 .k-calendar .k-state-selected .k-state-focused .k-state-hover {
@@ -113,16 +113,16 @@ span.k-picker-wrap.k-state-default.has-error {
 }
 
 td.k-state-focused {
-    -webkit-box-shadow:inset 0 0 10px 3px #f7931d;
-    box-shadow: inset 0 0 10px 3px #f7931d;
+    -webkit-box-shadow:inset 0 0 10px 3px #FF0000;
+    box-shadow: inset 0 0 10px 3px #FF0000;
 }
 
 td.k-state-focused.k-state-selected {
-    -webkit-box-shadow:inset 0 0 10px 3px #f7931d;
-    box-shadow: inset 0 0 10px 3px #f7931d;
+    -webkit-box-shadow:inset 0 0 10px 3px #FF0000;
+    box-shadow: inset 0 0 10px 3px #FF0000;
 }
 .s-scheduled {
-    color: #f7931d;
+    color: #FF0000;
 }
 
 .s-checkboxlabel {
@@ -176,9 +176,9 @@ a:hover {
     background-color: #fff;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
-    border-top: 3px solid #f7931d;
+    border-top: 3px solid #FF0000;
     border-bottom-color: transparent;
-    color: #f7931d;
+    color: #FF0000;
     cursor: default;
 }
 
@@ -186,9 +186,9 @@ a:hover {
     background-color: #fff;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
-    border-top: 3px solid #f7931d;
+    border-top: 3px solid #FF0000;
     border-bottom-color: transparent;
-    color: #f7931d;
+    color: #FF0000;
     cursor: default;
 }
 .nav-tabs.nav-justified {
@@ -217,7 +217,7 @@ a:hover {
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-    border: 1px solid #f7931d;
+    border: 1px solid #FF0000;
 }
 
 .pad-left-30 {
